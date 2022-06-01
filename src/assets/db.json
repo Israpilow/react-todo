@@ -1,0 +1,113 @@
+{
+  "lists": [
+    {
+      "id": 1,
+      "name": "Спорт",
+      "colorId": 4
+    },
+    {
+      "id": 2,
+      "name": "Фильмы и сериалыr",
+      "colorId": 3
+    },
+    {
+      "id": 3,
+      "name": "Книги",
+      "colorId": 2
+    },
+    {
+      "id": 4,
+      "name": "Личное",
+      "colorId": 1
+    },
+    {
+      "name": "gdfgd",
+      "colorId": 1,
+      "id": 5
+    },
+    {
+      "name": "asdas",
+      "colorId": 3,
+      "id": 7
+    },
+    {
+      "name": "h",
+      "colorId": 1,
+      "id": 8
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "listId": 1,
+      "text": "Почистить зубы",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "listId": 1,
+      "text": "Изучить паттерны проектирования",
+      "completed": true
+    },
+    {
+      "listId": 2,
+      "text": "dfgdf",
+      "completed": true,
+      "id": 7
+    },
+    {
+      "listId": 3,
+      "text": "dfgg",
+      "completed": true,
+      "id": 8
+    },
+    {
+      "listId": 4,
+      "text": "dfgfdg",
+      "completed": false,
+      "id": 9
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "hex": "#C9D1D3",
+      "name": "grey"
+    },
+    {
+      "id": 2,
+      "hex": "#42B883",
+      "name": "green"
+    },
+    {
+      "id": 3,
+      "hex": "#64C4ED",
+      "name": "blue"
+    },
+    {
+      "id": 4,
+      "hex": "#FFBBCC",
+      "name": "pink"
+    },
+    {
+      "id": 5,
+      "hex": "#B6E6BD",
+      "name": "lime"
+    },
+    {
+      "id": 6,
+      "hex": "#C355F5",
+      "name": "purple"
+    },
+    {
+      "id": 7,
+      "hex": "#110133",
+      "name": "black"
+    },
+    {
+      "id": 8,
+      "hex": "#FF6464",
+      "name": "red"
+    }
+  ]
+}
