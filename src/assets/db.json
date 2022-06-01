@@ -7,7 +7,7 @@
     },
     {
       "id": 2,
-      "name": "Фильмы и сериалыr",
+      "name": "Фильмы и сериалы",
       "colorId": 3
     },
     {
@@ -19,53 +19,32 @@
       "id": 4,
       "name": "Личное",
       "colorId": 1
-    },
-    {
-      "name": "gdfgd",
-      "colorId": 1,
-      "id": 5
-    },
-    {
-      "name": "asdas",
-      "colorId": 3,
-      "id": 7
-    },
-    {
-      "name": "h",
-      "colorId": 1,
-      "id": 8
     }
   ],
   "tasks": [
     {
       "id": 1,
       "listId": 1,
-      "text": "Почистить зубы",
+      "text": "Сделать 50 отжиманий",
       "completed": true
     },
     {
       "id": 2,
       "listId": 1,
-      "text": "Изучить паттерны проектирования",
+      "text": "Сделать 20 подтягиваний",
       "completed": true
     },
     {
       "listId": 2,
-      "text": "dfgdf",
+      "text": "Неуловимые 2012",
       "completed": true,
       "id": 7
     },
     {
       "listId": 3,
-      "text": "dfgg",
-      "completed": true,
-      "id": 8
-    },
-    {
-      "listId": 4,
-      "text": "dfgfdg",
+      "text": "Прочесть книгу Сила позознаяния",
       "completed": false,
-      "id": 9
+      "id": 8
     }
   ],
   "colors": [

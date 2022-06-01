@@ -119,8 +119,8 @@ const Tasks = ({
                   />
                   <label htmlFor={`check--${task.id}`}>
                     <svg
-                      width="20"
-                      height="20"
+                      width="16"
+                      height="16"
                       viewBox="0 0 11 8"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg">
@@ -134,7 +134,7 @@ const Tasks = ({
                     </svg>
                   </label>
                 </div>
-                <input className="tasks__inp" type="text" value={task.text} readOnly />
+                <p>{task.text}</p>
 
                 <div className="tasks__items-row-actions">
                   <div onClick={() => onEditValueTask(task)}>
@@ -171,7 +171,6 @@ const Tasks = ({
 
       {activeAddTask && (
         <div key={items.id} className="tasks__add">
-          <img src={closeSvg} alt="close" className="add-list__popup-close-btn" />
           <input
             onChange={(e) => setInputValue(e.target.value)}
             value={inputValue}

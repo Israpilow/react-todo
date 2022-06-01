@@ -34,6 +34,7 @@
     &-row {
       display: flex;
       column-gap: 20px;
+      align-items: center;
 
       &:hover &-actions {
         opacity: 1;
@@ -77,7 +78,7 @@
 
       svg {
         transition: opacity 0.15s ease-in-out;
-        margin-left: 1px;
+
         path {
           stroke: #f2f2f2;
         }
@@ -124,7 +125,7 @@
       }
     }
   }
-  &__inp {
+  p {
     border: none;
     font-size: 16px;
   }
