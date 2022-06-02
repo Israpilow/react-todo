@@ -19,6 +19,11 @@
       "id": 4,
       "name": "Личное",
       "colorId": 1
+    },
+    {
+      "name": "Учеба",
+      "colorId": 6,
+      "id": 5
     }
   ],
   "tasks": [

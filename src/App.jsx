@@ -115,7 +115,7 @@ function App() {
           }}
           items={[
             {
-              active: location.pathname === '/',
+              active: location.pathname === process.env.PUBLIC_URL + '/',
               icon: (
                 <svg
                   width="14"
@@ -137,7 +137,7 @@ function App() {
           <List
             activeList={activeList}
             onClickItem={(list) => {
-              navigate(`/lists/${list.id}`);
+              navigate(process.env.PUBLIC_URL + `/lists/${list.id}`);
             }}
             onDeleteItem={(id) => onDeleteItem(id)}
             isRemoveble={true}
@@ -159,7 +159,6 @@ function App() {
                 return (
                   <Tasks
                     key={list.id}
-                    activeList={activeList}
                     onAddTask={onAddTask}
                     items={list}
                     editListTask={onEditListTitle}
@@ -172,7 +171,7 @@ function App() {
             }
           />
           <Route
-            path="/lists/:id"
+            path={process.env.PUBLIC_URL + '/lists/:id'}
             element={
               addList &&
               activeList && (

@@ -2,14 +2,12 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 import editSvg from '../../assets/img/edit.svg';
-import closeSvg from '../../assets/img/close.svg';
 
 import './Tasks.scss';
 import { Link } from 'react-router-dom';
 
 const Tasks = ({
   items,
-  activeList,
   onAddTask,
   editListTask,
   onDeleteTask,
@@ -98,7 +96,7 @@ const Tasks = ({
 
   return (
     <div className="tasks">
-      <Link to={`/lists/${items.id}`}>
+      <Link to={process.env.PUBLIC_URL + `/lists/${items.id}`}>
         <div className="title">
           <h2 style={{ color: items && items.color.hex }}>{items.name}</h2>
           <img onClick={onEditTask} className="title__img" src={editSvg} alt="editSvg" />
@@ -135,7 +133,6 @@ const Tasks = ({
                   </label>
                 </div>
                 <p>{task.text}</p>
-
                 <div className="tasks__items-row-actions">
                   <div onClick={() => onEditValueTask(task)}>
                     <svg
